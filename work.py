@@ -18,7 +18,6 @@ board = [row1_lst, row2_lst, row3_lst, row4_lst, row5_lst, row6_lst, row7_lst, r
 
 # Create Board Display
 def print_board(bo):
-
     for i in range(len(bo)):
         if i % 3 == 0 and i !=0:
             print("- - - - - - - - - - - -")
